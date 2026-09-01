@@ -1,22 +1,38 @@
-Key Dashboard Features & Architecture1. Executive Summary Metric CardsThe dashboard top bar presents four key metric cards dynamically linked to the master data table:  Total Portfolio Revenue: ₹13,257.63 Cr (Exceeded baseline target of ₹13,100.00 Cr).  Overall Target Variance: +1.20% net positive variance overall.  Total Market Delivery Volume: 69,139 Units sold.  Portfolio Average YoY Growth: 24.23% average growth rate.
-Five-Chart Visual Analytics Suite 
-Chart 1: Actual vs. Target Revenue (Clustered Column): Directly contrasts total revenue vs. target budgets for each OEM.  
-Chart 2: Revenue Market Share (Donut Chart): Displays revenue market share distribution (Tata Motors: 55.32%, Ashok Leyland: 31.03%, Eicher VECV: 10.07%, BharatBenz: 3.58%).  
-Chart 3: Delivery Volume Comparison (Horizontal Bar Chart): Ranks OEMs by total volume output.  
-Chart 4: Average Selling Price Positioning (Vertical Column Chart): Contrasts premium positioning (BharatBenz at ₹28.50 Lakh) versus entry level (Eicher at ₹16.20 Lakh). 
-Chart 5: Revenue & YoY Growth (Combo Chart with Secondary Axis): Plots absolute revenue on a primary axis alongside YoY percentage growth on a secondary axis.
-Custom Number Formatting TechniquesTo preserve dynamic cell calculations without hardcoding static text, custom display rules were applied across the workbook:  Crores Formatting: "₹"#,##0.00" Cr"  Variance Formatting: +0.00%;-0.00%;0.00%  Volume Output: #,##0" Units"  Unit Pricing: ₹0.00" Lakh"  
+Commercial Vehicles Sales Revenue Dashboard with KPI Tracker
 
-Dynamic Interactive FilteringIntegrated dark-themed OEM / Brand Slicer allowing dynamic filtering across all charts simultaneously with single-click user interactions.  Key Strategic Findings & InsightsVolume Dominance: Tata Motors dominates both market delivery volume (39,641 units) and revenue contribution (₹7,333.59 Cr), representing over 55% of the total industry revenue captured.  
+An executive-level, interactive Microsoft Excel dashboard designed to track, evaluate, and visualize the sales revenue performance and key performance indicators (KPIs) of top commercial vehicle manufacturers for July 2026.
 
-Pricing Strategy Divergence: While Tata Motors leads in total scale, BharatBenz commands high pricing leverage with an Average Selling Price of ₹28.50 Lakh/unit compared to the industry average of ₹19.18 Lakh/unit.  Target Realization: Three out of four OEMs exceeded target numbers (BharatBenz +5.58%, Tata Motors +3.29%, Eicher VECV +2.69%), whereas Ashok Leyland missed target by -3.20% despite solid volume output. Repository Structure & DeliverablesPlaintext├── Commercial Vehicles Sales Revenue Dashboard with KPI Tracker.xlsx   # Primary Excel Workbook
-├── Advanced_Excel_Project_Report_With_Logo.docx                       # Official Written Project Report
-├── Commercial_Vehicles_July_2026_Sales_Revenue_Presentation.pptx      # Executive Presentation Deck
-├── Dashboard.png                                                     # Executive Dashboard Screenshot
-├── Data_Master.png                                                    # Data Architecture Screenshot
-└── README.md                                                          # Project Documentation
-Evaluation Checklist VerificationRequirement ItemSubmission StatusReference / DetailExcel Workbook (.xlsx)CompletedFully functional dynamic model  Documentation ReportCompletedWord Report included in repository  Presentation DeckCompletedExecutive PPT slides attached  Dashboard ScreenshotsCompletedEmbedded visual proofs  Public Repository LinkCompletedConfigured for open evaluation  Author & Verification DetailsStudent Name: Siddharth Burman  GitHub Username: siddharthburman3-cmd  Program: Advanced Excel Certification  Issuing Organization: Centre of Excellence for AI 
+Project Overview
+This project processes July 2026 sales and revenue data across four major commercial vehicle OEMs: Tata Motors, Ashok Leyland, Eicher (VECV), and BharatBenz. The dashboard provides an interactive summary using custom metric cards, high-impact dynamic charts, and Slicer controls for executive decision-making.
 
+Key Indicators & Metrics (July 2026)
+MetricPortfolio ValueDescriptionTotal Revenue₹13,257.63 CrActual aggregate revenue across all 4 OEMs (vs. ₹13,100 Cr target)  Revenue Variance+1.20%Portfolio performance exceeding target revenue by ₹157.63 Cr  Total Units Sold69,139 UnitsTotal commercial vehicle units delivered  Portfolio Avg. Growth24.23%Simple average year-over-year (YoY) revenue growth  
+
+Key Indicators & Metrics (July 2026)
+OEM / Brand,Units Sold,ASP (₹ Lakh),Revenue (₹ Cr),Target (₹ Cr),Variance (%),YoY Growth (%)
+Tata Motors,"39,641",₹18.50,"₹7,333.59","₹7,100.00",+3.29%,36.90%
+Ashok Leyland,"19,590",₹21.00,"₹4,113.90","₹4,250.00",-3.20%,30.00%
+Eicher (VECV),"8,241",₹16.20,"₹1,335.04","₹1,300.00",+2.69%,15.80%
+BharatBenz,"1,667",₹28.50,₹475.10,₹450.00,+5.58%,14.20%
+Total / Average,"69,139",₹19.18,"₹13,257.63","₹13,100.00",+1.20%,24.23%
+
+Key Insights & Business Highlights
+Volume Leader: Tata Motors dominates volume with 39,641 units sold (55.32% market share) and leads YoY revenue growth at 36.90%.  
+Premium Pricing Strategy: BharatBenz commands the highest Average Selling Price (₹28.50 Lakh/unit) compared to the portfolio average of ₹19.18 Lakh/unit.  
+Target Achievement: Three out of four OEMs exceeded their revenue targets. Ashok Leyland was the sole OEM below target (-3.20%).
+
+Dashboard Architecture & Visualizations
+Actual vs. Target Revenue by OEM (Clustered Column Chart): Evaluates target attainment across manufacturers.  
+OEM Revenue Market Share (Donut Chart): Displays individual revenue contribution proportions.  
+Commercial Vehicle Units Sold (Horizontal Bar Chart): Highlights operational volume leaders.  
+Average Selling Price Comparison (Vertical Column Chart): Visualizes pricing positioning across brands.  
+Total Revenue vs. YoY Revenue Growth (Combo Chart): Dual-axis visualization combining revenue scale with percentage growth trends.  
+Interactive Slicers: Dynamic single-click OEM / Brand Slicer instantly filtering all charts simultaneously.
+
+Tools & Technical Features
+Microsoft Excel: Data modeling, dynamic formulas, structured table references, and custom layout design.  
+Excel Tables (Ctrl + T): Structured data range referencing for seamless filtering.  
+Custom Number Formatting: Standardized visual formatting rules ("₹"#,##0.00" Cr", +0.00%;-0.00%;0.00%, #,##0" Units") retaining dynamic formula calculation integrity.  
 <img width="1917" height="1018" alt="Screenshot 2026-09-01 075141" src="https://github.com/user-attachments/assets/7434d310-0d8a-4cf8-839e-0008a9c5a6f1" />
 <img width="1917" height="1017" alt="Screenshot 2026-09-01 075216" src="https://github.com/user-attachments/assets/c8d7cb21-f0c6-463d-8d23-abaadd148211" />
 <img width="1917" height="1018" alt="Screenshot 2026-09-01 075232" src="https://github.com/user-attachments/assets/3fe5f8b8-aa66-42e2-976e-15017e64b648" />
