@@ -16,3 +16,7 @@ Pricing Strategy Divergence: While Tata Motors leads in total scale, BharatBenz 
 ├── Data_Master.png                                                    # Data Architecture Screenshot
 └── README.md                                                          # Project Documentation
 Evaluation Checklist VerificationRequirement ItemSubmission StatusReference / DetailExcel Workbook (.xlsx)CompletedFully functional dynamic model  Documentation ReportCompletedWord Report included in repository  Presentation DeckCompletedExecutive PPT slides attached  Dashboard ScreenshotsCompletedEmbedded visual proofs  Public Repository LinkCompletedConfigured for open evaluation  Author & Verification DetailsStudent Name: Siddharth Burman  GitHub Username: siddharthburman3-cmd  Program: Advanced Excel Certification  Issuing Organization: Centre of Excellence for AI 
+
+<img width="1917" height="1018" alt="Screenshot 2026-09-01 075141" src="https://github.com/user-attachments/assets/7434d310-0d8a-4cf8-839e-0008a9c5a6f1" />
+<img width="1917" height="1017" alt="Screenshot 2026-09-01 075216" src="https://github.com/user-attachments/assets/c8d7cb21-f0c6-463d-8d23-abaadd148211" />
+<img width="1917" height="1018" alt="Screenshot 2026-09-01 075232" src="https://github.com/user-attachments/assets/3fe5f8b8-aa66-42e2-976e-15017e64b648" />
